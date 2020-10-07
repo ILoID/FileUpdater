@@ -4,4 +4,4 @@
 
 # Usage:
  Change the (sub-)directory names according to your filesystem.
- Run the file
+ Run the file.
