@@ -12,13 +12,14 @@ SUB_DIR_2 = '2'
 SUB_DIR_3 = '3'
 SUB_DIR_4 = '4'
 SUB_DIR_5 = '5'
+SUB_DIR_6 = '6'
 
 
 base_path = Path.cwd()
 source_path = base_path.joinpath(SOURCE_DIR_NAME)
 source_files = os.listdir(source_path)
 target_dir = base_path.joinpath(TARGET_DIR_NAME)
-target_paths = [target_dir.joinpath(SUB_DIR_1), target_dir.joinpath(SUB_DIR_2), target_dir.joinpath(SUB_DIR_3), target_dir.joinpath(SUB_DIR_4), target_dir.joinpath(SUB_DIR_5)]
+target_paths = [target_dir.joinpath(SUB_DIR_1), target_dir.joinpath(SUB_DIR_2), target_dir.joinpath(SUB_DIR_3), target_dir.joinpath(SUB_DIR_4), target_dir.joinpath(SUB_DIR_5), target_dir.joinpath(SUB_DIR_6)]
 
 
 def update_files():
