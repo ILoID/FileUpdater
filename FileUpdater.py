@@ -30,6 +30,7 @@ def update_files():
                 full_source_name = os.path.join(source_path, source_file)
                 if source_file == target_file:
                     shutil.copy(full_source_name, full_target_name)
+                    
     print('Files successfully updated!')
     time.sleep(2)
 
